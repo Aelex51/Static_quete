@@ -13,6 +13,6 @@ class Speedometer
     public static function convertKmToMiles(int $speed)
     {
        $finalSpeed = $speed / self::converter;
-       return round($finalSpeed,2);
+       return round($finalSpeed, 2);
     }
 }
